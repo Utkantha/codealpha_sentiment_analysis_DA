@@ -1,0 +1,6 @@
+id,text,source,Sentiment,Emotions
+1,The stock market reached an all-time high today amid economic recovery.,News,Positive,{}
+2,"A devastating earthquake has hit the region, leaving thousands homeless.",News,Negative,"{'fear': 1, 'sadness': 1}"
+3,Local authorities are planning to build a new park in the city center.,News,Neutral,{}
+4,The new policy changes have sparked widespread protests across the country.,News,Negative,{'anger': 1}
+5,Scientists discover a promising new treatment for rare diseases.,News,Positive,{'fear': 1}
