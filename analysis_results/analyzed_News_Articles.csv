@@ -1,0 +1,6 @@
+id,text,source,Sentiment,Emotions
+1,Global markets rally as tech stocks hit record highs.,News,Neutral,{}
+2,"Terrible storm hits the coast, causing massive destruction.",News,Negative,{'anger': 1}
+3,City council votes on new infrastructure budget this week.,News,Neutral,{}
+4,Protests erupt in the capital over recent legislative changes.,News,Negative,{'anger': 1}
+5,Researchers announce a breakthrough in renewable energy technology.,News,Positive,{}

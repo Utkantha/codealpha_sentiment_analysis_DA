@@ -38,7 +38,7 @@ def generate_insights_report(results_dict):
     report.append("- **Product Development:** Address the negative Amazon reviews by analyzing the specific complaints (e.g., product durability issues).")
     report.append("- **Public Relations:** Monitor News sentiment to manage brand reputation and respond swiftly to emerging negative sentiment.")
     
-    with open('output/insights_report.md', 'w', encoding='utf-8') as f:
+    with open('analysis_results/insights_report.md', 'w', encoding='utf-8') as f:
         f.write('\n'.join(report))
         
     print("Insights report generated at output/insights_report.md")
@@ -47,7 +47,7 @@ def generate_insights_report(results_dict):
 def main():
     print("Initializing Analyzer (Downloading NLP resources if needed)...")
     analyzer = TextAnalyzer()
-    visualizer = InsightsVisualizer(output_dir='output')
+    visualizer = InsightsVisualizer(output_dir='analysis_results')
     
     datasets = load_data()
     analyzed_datasets = {}
@@ -62,11 +62,11 @@ def main():
         visualizer.plot_emotion_frequencies(analyzed_df, source_name)
         
         # Save analyzed data
-        analyzed_df.to_csv(f'output/analyzed_{source_name}.csv', index=False)
+        analyzed_df.to_csv(f'analysis_results/analyzed_{source_name}.csv', index=False)
         
     print("Generating final insights report...")
     generate_insights_report(analyzed_datasets)
-    print("Analysis complete! Check the 'output' folder for results, visualizations, and insights.")
+    print("Analysis complete! Check the 'analysis_results' folder for results, visualizations, and insights.")
 
 if __name__ == "__main__":
     main()

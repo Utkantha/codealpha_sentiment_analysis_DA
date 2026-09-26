@@ -1,6 +1,0 @@
-id,text,source,Sentiment,Emotions
-1,This product is amazing! I absolutely love the quality.,Amazon,Positive,{'joy': 2}
-2,Terrible experience. The item broke after one use.,Amazon,Negative,"{'anger': 1, 'sadness': 1}"
-3,"It's okay, not the best but it gets the job done.",Amazon,Negative,{'joy': 1}
-4,"I am so happy with this purchase, highly recommend!",Amazon,Positive,{'joy': 1}
-5,Waste of money. Very disappointed with the customer service.,Amazon,Negative,{'anger': 2}

@@ -1,6 +1,0 @@
-id,text,source,Sentiment,Emotions
-1,Just had the best coffee ever! Starting the day right ☕️,Twitter,Positive,{'joy': 1}
-2,Stuck in traffic again. I hate commuting so much 😠,Twitter,Negative,{'anger': 1}
-3,Attending the new tech conference. Lots of interesting talks.,LinkedIn,Positive,{}
-4,I feel so anxious about the upcoming exams...,Twitter,Negative,{'fear': 1}
-5,Excited to announce my new job at a great company!,LinkedIn,Positive,{'joy': 2}

@@ -1,0 +1,6 @@
+id,text,source,Sentiment,Emotions
+1,Feeling so excited for the weekend getaway! 🎉,Twitter,Positive,{'joy': 1}
+2,This traffic is making me so angry. I hate being late.,Twitter,Negative,{'anger': 2}
+3,Just finished an amazing workshop on AI and machine learning.,LinkedIn,Positive,{'joy': 1}
+4,Really anxious about my presentation tomorrow morning...,Twitter,Negative,{'fear': 1}
+5,Happy to share that I've been promoted to Senior Developer!,LinkedIn,Positive,{'joy': 1}

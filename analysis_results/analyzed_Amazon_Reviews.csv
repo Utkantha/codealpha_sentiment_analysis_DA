@@ -1,0 +1,6 @@
+id,text,source,Sentiment,Emotions
+1,This is the best purchase I have ever made! Superb quality.,Amazon,Positive,{'joy': 1}
+2,Horrible item. It stopped working after just two days.,Amazon,Negative,{}
+3,"Decent product for the price, but nothing extraordinary.",Amazon,Neutral,{}
+4,Absolutely thrilled with this! Five stars and highly recommended.,Amazon,Positive,{}
+5,Very bad customer support and the product arrived damaged.,Amazon,Negative,{}

@@ -3,7 +3,7 @@ import seaborn as sns
 import pandas as pd
 
 class InsightsVisualizer:
-    def __init__(self, output_dir='output'):
+    def __init__(self, output_dir='analysis_results'):
         self.output_dir = output_dir
         import os
         os.makedirs(self.output_dir, exist_ok=True)
